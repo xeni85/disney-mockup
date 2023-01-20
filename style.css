@@ -1,0 +1,250 @@
+
+/* Nav */
+body {
+    margin: 0 8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    height: 4rem;
+    margin: 0 1rem;
+    font-size: .9em;
+    font-weight: 540;
+}
+
+nav div a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 50%;
+}
+
+.nav-links img {
+    height: 3rem;
+}
+.nav-searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 50%;
+    gap: 1rem;
+    font-weight: lighter;
+}
+
+.nav-searchbar form {
+    display: flex;
+}
+.nav-searchbar form input {
+    width: 15rem;
+    background-color: rgb(224, 230, 235);
+    border-radius: 5px 0 0  5px;
+    border-right: none;
+    height: 2rem;
+}
+
+.nav-searchbar form button {
+    background-color: white;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    height: 2.375rem;
+}
+
+/* First div */
+.first-div {
+    width: 100%;
+    background-color: rgb(19, 19, 19);
+}
+
+.first-div a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+.first-div a div div {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: flex-end;
+}
+.first-div a div div img {
+    height: 11rem;
+    width: 20rem;
+    padding: 7rem 0 2rem 4.4rem;
+}
+
+.first-div a div div {
+    line-height: 35%;
+    text-align: center;
+}
+
+
+.first-div a div div p {
+    color: rgb(243, 243, 243);
+    font-size: 0.8rem;
+}
+.first-div-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-end;
+    padding-top: .5rem;
+    padding-bottom: 7rem;
+}
+
+
+.first-div-btns button{
+    border-radius: 25px;
+    font-size: normal;
+    font-weight: 450;
+    padding: 1rem 4.5rem;
+}
+
+#btn1 {
+    background-color: white;
+    color: black;
+}
+
+#btn2 {
+    background-color: black;
+    color: white;
+    border-width: 0.1rem;
+    border-color: white;
+}
+
+.first-div-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    width: 40%;
+}
+
+.first-div-second-container {
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;;
+}
+
+
+.first-div-second-container img{
+    height: 100%;
+    width: 80%;
+}
+.first-div-second-container img:hover {
+    transform: scale(1.01);
+}
+
+/* Second div */
+
+.second-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:1rem;
+    padding: 2rem 1rem;
+    background-color:rgb(241,242,243);
+    width: 100%;
+}
+
+.second-div>div>a>img {
+    height:11rem;
+    width: 100%;
+}
+
+
+/* Third div */
+
+.third-div {
+    background-color:rgb(241,242,243);
+}
+
+.third-div-header h2{
+    margin: 0%;
+    background-color:rgb(241,242,243);
+}
+
+#movie-title, #resort-id{
+    font-style: italic;
+}
+
+.third-div-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+.third-div-container>div>a>img {
+    height:8rem;
+    width: 100%;
+}
+
+.third-div-container>div>a>img:hover {
+    transform: scale(1.01);
+}
+.third-div-container>div {
+    overflow: hidden;
+}
+
+/* Fourth div */
+.fourth-div {
+    background-color: rgb(10,25,60);
+    width: 100%;
+}
+
+.fourth-div div h2 {
+    margin: 0;
+    color:white;
+    text-align: center;
+}
+.fourth-div-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+.fourth-div div div a img {
+    width: 100%;
+}
+
+/* Fifth div */
+.fifth-div {
+    width: 100%;
+    background-color: rgb(241,242,243);
+}
+
+.fifth-div div h2 {
+    margin: 0;
+}
+.fifth-div-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    padding: 1rem 1rem 7rem 1rem;
+}
+
+.fifth-div-container div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.fifth-div-container>div>img:hover {
+    transform: scale(1.01);
+}
+
+/* .fifth-div-container>div {
+    overflow: hidden;
+    border-radius: 5px;
+} */
